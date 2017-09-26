@@ -21,6 +21,7 @@
     "gulp-shell": "^0.6.3",
     "gulp-tslint": "^8.1.2",
     "gulp-typescript": "^3.2.2",
-    "tslint": "^5.7.0"
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
   }
 }
