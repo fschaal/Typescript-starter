@@ -30,8 +30,7 @@ gulp.task('tslint', () => {
 gulp.task("compile", function () {
     var tsResult = gulp.src("src/*.ts")
         .pipe(ts({
-            noImplicitAny: true,
-            out: "output.js"
+            noImplicitAny: true
         }));
     return tsResult.js.pipe(gulp.dest("build"));
 });
